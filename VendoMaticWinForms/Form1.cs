@@ -48,18 +48,18 @@ namespace VendoMatic
             switch (x)
             {
                 case 0:
-                    string goodMessage = $"Item Name: {item.ItemName} Item Price: {item.Price:c2} Remaining Balance: {VM.Balance:c2} \n" +
-                        item.SoundMessage;
-                    string title = "Purchase";
+                    string goodMessage = $"Item Name: {item.ItemName}, Item Price: {item.Price:c2}, Remaining Balance: {VM.Balance:c2}. {item.SoundMessage}";
+                    string title = "Purchased Item";
                     MessageBox.Show(goodMessage,title);
+                    DisplayAllItems();
                     break;
                 case 1:
-                    string brokeMessage = "Not Enough Money!";
+                    string brokeMessage = "You don't have enough money for this item!";
                     title = "Error";
                     MessageBox.Show(brokeMessage, title);
                     break;
                 case 2:
-                    string soldOutMessage = "Sold Out!";
+                    string soldOutMessage = "This item is sold out!";
                     title = "Error";
                     MessageBox.Show(soldOutMessage, title);
                     break;
@@ -72,14 +72,14 @@ namespace VendoMatic
         {
             int message = VM.Dispense(VM.AllItem[3]);
             DispenseMessage(message, VM.AllItem[3]);
-            DisplayAllItems();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[0]);
             DispenseMessage(message, VM.AllItem[0]);
-            DisplayAllItems();
+            
 
         }
 
@@ -87,91 +87,91 @@ namespace VendoMatic
         {
             int message = VM.Dispense(VM.AllItem[1]);
             DispenseMessage(message, VM.AllItem[1]);
-            DisplayAllItems();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[2]);
             DispenseMessage(message, VM.AllItem[2]);
-            DisplayAllItems();
+            
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[4]);
             DispenseMessage(message, VM.AllItem[4]);
-            DisplayAllItems();
+           
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[5]);
             DispenseMessage(message, VM.AllItem[5]);
-            DisplayAllItems();
+          
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[6]);
             DispenseMessage(message, VM.AllItem[6]);
-            DisplayAllItems();
+           
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[7]);
             DispenseMessage(message, VM.AllItem[7]);
-            DisplayAllItems();
+            
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[8]);
             DispenseMessage(message, VM.AllItem[8]);
-            DisplayAllItems();
+            
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[9]);
             DispenseMessage(message, VM.AllItem[9]);
-            DisplayAllItems();
+            
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[10]);
             DispenseMessage(message, VM.AllItem[10]);
-            DisplayAllItems();
+            
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[11]);
             DispenseMessage(message, VM.AllItem[11]);
-            DisplayAllItems();
+            
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[12]);
             DispenseMessage(message, VM.AllItem[12]);
-            DisplayAllItems();
+            
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[13]);
             DispenseMessage(message, VM.AllItem[13]);
-            DisplayAllItems();
+            
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
             int message = VM.Dispense(VM.AllItem[14]);
             DispenseMessage(message, VM.AllItem[14]);
-            DisplayAllItems();
+            
 
         }
 
@@ -179,7 +179,7 @@ namespace VendoMatic
         {
             int message = VM.Dispense(VM.AllItem[15]);
             DispenseMessage(message, VM.AllItem[15]);
-            DisplayAllItems();
+            
         }
 
         private void btn_1Dollar_Click(object sender, EventArgs e)
@@ -209,7 +209,7 @@ namespace VendoMatic
         private void btn_getChange_Click(object sender, EventArgs e)
         {
             string message = VM.GetChange();
-            string title = "Dispense Change";
+            string title = "Change Dispensed";
             MessageBox.Show(message,title);
             DisplayBalance();
         }

@@ -8,3 +8,13 @@ C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.csproj.GenerateRes
 C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.csproj.CoreCompileInputs.cache
 C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.exe
 C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.pdb
+C:\Users\Student\workspace\GitHub\VendoMaticWinForms\bin\Debug\VendoMatic.exe.config
+C:\Users\Student\workspace\GitHub\VendoMaticWinForms\bin\Debug\VendoMatic.exe
+C:\Users\Student\workspace\GitHub\VendoMaticWinForms\bin\Debug\VendoMatic.pdb
+C:\Users\Student\workspace\GitHub\VendoMaticWinForms\obj\Debug\VendoMatic.csprojAssemblyReference.cache
+C:\Users\Student\workspace\GitHub\VendoMaticWinForms\obj\Debug\VendoMatic.Form1.resources
+C:\Users\Student\workspace\GitHub\VendoMaticWinForms\obj\Debug\VendoMatic.Properties.Resources.resources
+C:\Users\Student\workspace\GitHub\VendoMaticWinForms\obj\Debug\VendoMatic.csproj.GenerateResource.cache
+C:\Users\Student\workspace\GitHub\VendoMaticWinForms\obj\Debug\VendoMatic.csproj.CoreCompileInputs.cache
+C:\Users\Student\workspace\GitHub\VendoMaticWinForms\obj\Debug\VendoMatic.exe
+C:\Users\Student\workspace\GitHub\VendoMaticWinForms\obj\Debug\VendoMatic.pdb

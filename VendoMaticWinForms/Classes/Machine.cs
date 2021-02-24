@@ -24,22 +24,7 @@ namespace VendoMatic.Classes
             rw.StartLog();
             return true;
         }
-        public bool DisplayItems()
-        {
-            Console.Clear();
-            //Displays all items in machine with remaining quantity
-            foreach (Item item in AllItem)
-            {
-                if (item.Quantity > 0)
-                {
-                    Console.WriteLine(item.Slot + " | " + item.ItemName + " | ".PadLeft(21 - item.ItemName.Length) + item.Price + " | Quantity: " + item.Quantity + " |");
-                }else
-                {
-                    Console.WriteLine(item.Slot + " | " + item.ItemName + " | ".PadLeft(21 - item.ItemName.Length) + item.Price + " | SOLD OUT "+ "|".PadLeft(4));
-                }
-            }
-            return true;
-        }
+      
         public int Dispense(Item item)
         {
             //Loops through each item in machine
@@ -107,7 +92,7 @@ namespace VendoMatic.Classes
 
             Balance = 0.00M;
 
-            return $"Dispensed {quartersDispensed} Quarters, {dimesDispensed} Dimes, {nicklesDispensed} Nickles";
+            return $"{quartersDispensed} Quarters, {dimesDispensed} Dimes, {nicklesDispensed} Nickles";
         }
 
     }
