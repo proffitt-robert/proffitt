@@ -1,0 +1,10 @@
+C:\Users\Student\source\repos\VendoMatic\bin\Debug\VendoMatic.exe.config
+C:\Users\Student\source\repos\VendoMatic\bin\Debug\VendoMatic.exe
+C:\Users\Student\source\repos\VendoMatic\bin\Debug\VendoMatic.pdb
+C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.Form1.resources
+C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.Properties.Resources.resources
+C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.csproj.GenerateResource.cache
+C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.exe
+C:\Users\Student\source\repos\VendoMatic\obj\Debug\VendoMatic.pdb
